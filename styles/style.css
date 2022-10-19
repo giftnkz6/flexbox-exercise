@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+.container{
+    display: flex;
+    gap: 10vw;
+    width: 100vw
+    border: 1px solid black;
+    height: 45vh; */
+    /* width: 30vw; */
+    /* background-color: grey; */
+}
+.aside-left{
+    align-self: flex-start;
+    background-color: red;
+    height: 40vh;
+    min-width: 10vw;
+    width: 15vw;
+}
+.aside-right{
+    background-color: red;
+    height: 40vh;
+    min-width: 10vw;
+    width: 15vw;
+}
+.center{
+    background-color: blue;
+    height: 15vh;
+    min-width: 10vw;
+    width: 15vw;
+    align-self: center;
+
+}
